@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <children>
+      <Label layoutX="88.0" layoutY="37.0" text="Compte">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="118.0" text="Nom d'utilisateur" />
+      <Label layoutX="15.0" layoutY="163.0" text="Mot de passe" />
+      <TextArea fx:id="usernameField" layoutX="136.0" layoutY="113.0" maxHeight="15.0" minHeight="25.0" prefHeight="15.0" prefWidth="133.0" />
+      <PasswordField fx:id="passwordField" layoutX="136.0" layoutY="158.0" maxHeight="25.0" maxWidth="133.0" minHeight="25.0" minWidth="133.0" prefHeight="25.0" prefWidth="133.0" />
+      <Button fx:id="connection" layoutX="32.0" layoutY="225.0" mnemonicParsing="false" onAction="#connection" prefHeight="26.0" prefWidth="231.0" text="Se connecter" />
+      <Button fx:id="inscription" layoutX="31.0" layoutY="268.0" mnemonicParsing="false" onAction="#inscription" prefHeight="26.0" prefWidth="231.0" text="Inscrivez-vous" />
+      <Label fx:id="errorField" alignment="CENTER" layoutX="24.0" layoutY="79.0" prefHeight="18.0" prefWidth="251.0" textFill="RED" />
+   </children>
+</AnchorPane>

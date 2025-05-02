@@ -1,0 +1,1 @@
+java --enable-preview --module-path "C:\Users\admin\Desktop\Emi\S1\Prog OO\Projet_Java\Calculatrice\javaFX\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,javafx.fxml -jar .\Calculatrice.jar
