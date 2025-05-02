@@ -45,7 +45,7 @@ Calculatrice-Java-OOP/
     2. Dans la section **Libraries**, cliquez sur **+** pour ajouter la bibliothèque JavaFX en sélectionnant le dossier `lib` de JavaFX (par exemple : `javafx-sdk-23.0.1/lib`).
   - **Lancez `Main.java`** pour exécuter l'application.
 
-## 🚀 Exécution a l'aide du fichier ".jar"
+## 🚀 Exécution a l'aide du fichier ".jar" (recommandé)
 
  Ouvrez un terminal et compilez le projet avec la commande suivante :
   ```bash
