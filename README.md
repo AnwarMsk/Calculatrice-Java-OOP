@@ -15,6 +15,7 @@ Ce projet est une calculatrice simple développée en Java en respectant les pri
 - IDE : VS Code
 
 ## 📁 Structure du projet
+```
 Calculatrice-Java-OOP/
 └── src/                              # Code source
     ├── Calculatrice/
@@ -33,7 +34,7 @@ Calculatrice-Java-OOP/
         ├── Login.fxml
         ├── Login.txt
         └── LoginController.java
-
+```
 ## 🚀 Exécution a l'aide du IDE
 
 1. Assurez-vous d’avoir JavaFX installé et configurer
