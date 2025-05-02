@@ -38,8 +38,7 @@ Calculatrice-Java-OOP/
 ## 🚀 Exécution a l'aide du IDE
 
 1. Assurez-vous d’avoir JavaFX installé et configurer
-2. Compilez et exécutez le projet à l’aide de votre IDE ou en ligne de commande.
-3. Via IntelliJ ou Visual Studio :
+2. Via IntelliJ ou Visual Studio :
   - **Configurez JavaFX** dans `Project Structure > Libraries` :
     1. Allez dans **File > Project Structure**.
     2. Dans la section **Libraries**, cliquez sur **+** pour ajouter la bibliothèque JavaFX en sélectionnant le dossier `lib` de JavaFX (par exemple : `javafx-sdk-23.0.1/lib`).
