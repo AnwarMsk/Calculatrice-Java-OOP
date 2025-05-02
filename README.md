@@ -1,22 +1,51 @@
-<<<<<<< HEAD
-## Getting Started
+# Calculatrice Java - Programmation Orientée Objet
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ce projet est une calculatrice simple développée en Java en respectant les principes fondamentaux de la **programmation orientée objet (POO)**. Il prend en charge les opérations de base : addition, soustraction, multiplication et division.
 
-## Folder Structure
+## ✨ Fonctionnalités
 
-The workspace contains two folders by default, where:
+- Interface graphique avec JavaFX
+- Structure orientée objet (classes, encapsulation, héritage)
+- Gestion des erreurs (division par zéro, entrées non valides, etc.)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🔧 Technologies utilisées
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- JavaFX
+- IDE : VS Code
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📁 Structure du projet
+Calculatrice-Java-OOP/
+└── src/                              # Code source
+    ├── Calculatrice/
+    │   ├── 61122.png
+    │   ├── Calculatrice.fxml
+    │   ├── CalculatriceController.java
+    │   ├── DivisionException.java
+    │   ├── ExpressionException.java
+    │   ├── Historique.java
+    │   ├── Historiqueayy.txt
+    │   ├── Main.java
+    │   ├── OperationComplexe.java
+    │   └── OperationException.java
+    │
+    └── Login/
+        ├── Login.fxml
+        ├── Login.txt
+        └── LoginController.java
 
-## Dependency Management
+## 🚀 Exécution a l'aide du IDE
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# Calculatrice-Java-OOP
->>>>>>> efba69d68a997595bf0fabd114cbbd29030242db
+1. Assurez-vous d’avoir JavaFX installé et configurer
+2. Compilez et exécutez le projet à l’aide de votre IDE ou en ligne de commande.
+3. Via IntelliJ ou Visual Studio :
+  - **Configurez JavaFX** dans `Project Structure > Libraries` :
+    1. Allez dans **File > Project Structure**.
+    2. Dans la section **Libraries**, cliquez sur **+** pour ajouter la bibliothèque JavaFX en sélectionnant le dossier `lib` de JavaFX (par exemple : `javafx-sdk-23.0.1/lib`).
+  - **Lancez `Main.java`** pour exécuter l'application.
+
+## 🚀 Exécution a l'aide du fichier ".jar"
+
+ Ouvrez un terminal et compilez le projet avec la commande suivante :
+  ```bash
+  java --enable-preview --module-path ".\javaFX\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,javafx.fxml -jar .\Calculatrice.jar
